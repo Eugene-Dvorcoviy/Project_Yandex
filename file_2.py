@@ -1,6 +1,5 @@
-def main():
-    print('My first git program')
+import random
 
-
-if __name__ == '__main__':
-    main()
+f = open("lines.txt", mode="rt").readlines()
+if len(f) != 0:
+    print(f[random.randrange(0, len(f))])
