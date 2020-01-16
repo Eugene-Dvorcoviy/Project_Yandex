@@ -22,7 +22,7 @@ class Player(pygame.sprite.Sprite):
 
     def update_right(self):
         if self.x <= 400:
-            self.x += 2
+            self.x += 1
         self.rect.center = (self.x, self.y)
 
 
